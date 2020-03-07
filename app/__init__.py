@@ -24,3 +24,6 @@ db = SQLAlchemy(app)
 
 from .home import home
 app.register_blueprint(home)
+
+from .admin import admin
+app.register_blueprint(admin, url_prefix="/admin/")

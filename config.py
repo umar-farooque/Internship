@@ -29,4 +29,4 @@ CSRF_SESSION_KEY = "secret"
 # Secret key for signing cookies
 SECRET_KEY = "secret"
 
-SERVER_NAME = 'localhost:8080'
+# SERVER_NAME = 'localhost:8080'
