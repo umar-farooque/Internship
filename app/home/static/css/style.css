@@ -1,0 +1,197 @@
+html, body {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'lato';
+    overflow-x: hidden;
+}
+.jumbotron {
+    background: transparent;
+}
+.jumbo-content {
+    font-family: lato;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.jumbo-tag{
+    font-size: 54px;
+    color: #1c75bc !important;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transform: rotate(-4deg);
+}
+.about-course-desc {
+    margin-top: 80px;
+}
+.about-video {
+    min-width: 280px;
+}
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+    /* border: 1px solid black; */
+}
+
+.lessons-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    /* border: 1px solid black; */
+}
+.header ul {
+    list-style-image: url('../images/check-mark.png');
+}
+
+.jum-col-2 {
+    /* The image used */
+    background-image: url("../images/bg01_01.jpg");
+
+    /* Set a specific height */
+    /* min-height: 500px;  */
+    /* height: 100%; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../images/bg01_01.jpg");
+
+    /* Set a specific height */
+    min-height: 400px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.benefits-section {
+    /* background: transparent; */
+}
+
+.yellow-bg {
+    margin: auto;
+    background-color: #1c75bc!important;
+    opacity: 0.7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.text-fledge {
+    color: #1c75bc !important;
+}
+.bg-fledge{
+    background-color: #1c75bc !important;
+}
+.testimonial-parallax{
+    background-image: url("../images/testimonialbg_02.jpg");
+    background-color: #fff;
+    /* Set a specific height */
+    min-height: 400px; 
+    /* position: relative; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 1000px;
+    /* display: block; */
+}
+
+.benefits-header{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.benefits-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.benefits-desc{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.benefits-desc a{
+    color: #fff;
+    text-decoration: underline;
+}
+.btn-fledge {
+    color: #fff;
+    background-color: #1c75bc !important;
+    border-color: #1c75bc !important;
+}
+
+.btn-fledge:hover {background-color: #3e8e41}
+
+.btn-fledge:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.quote-link{
+    text-decoration: none !important;
+}
+
+.python-image {
+    background-image: url("../images/python-logo.png");
+    background-color: #fff;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
+  .instructor-row {
+    background-image: url("../images/pattern.svg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 500px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3)
+
+  }
+
+
+.border-fledge {
+    border-color: #1c75bc !important;
+}
+
+.bg-highlighter {
+	background-color: #1c75bc !important;
+	color: #fff;
+	border-bottom:  2px solid transparent;
+	/* border-bottom-color: white; */
+	display: inline-block;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	/* box-shadow: 1px 1px 1px 1px grey; */
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.text-white {
+    color: #fff;
+}
+.text-highlight {
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.3)
+}
